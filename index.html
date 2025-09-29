@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Curt Elbow — Official | RepChrist</title>
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/727/727245.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Rampart+One&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" crossorigin="anonymous" />
+  <style>
+    :root{
+      --bg:#0b0b0b;
+      --fg:#f5f5f5;
+      --muted:#bdbdbd;
+      --accent:#32cd32;
+      --card:#121212;
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:var(--bg);color:var(--fg);font-family:Inter,sans-serif;overflow-x:hidden}
+    a{color:var(--fg);text-decoration:none}
+    .container{max-width:1100px;margin:0 auto;padding:24px}
+    header{position:sticky;top:0;background:rgba(11,11,11,.85);backdrop-filter:saturate(120%) blur(8px);border-bottom:1px solid rgba(255,255,255,.06);z-index:50}
+    .nav{display:flex;align-items:center;justify-content:center;padding:14px 24px}
+    .nav__actions a{
+      margin:0 12px;
+      font-family:'Permanent Marker', cursive;
+      font-size:1.1rem;
+      text-transform:uppercase;
+      color:var(--accent);
+    }
+    section{padding:48px 24px;border-bottom:1px solid rgba(255,255,255,.06)}
+    h1,h2{margin:0 0 12px;text-align:center}
+    h1{font-size:clamp(40px,6vw,70px);font-family:'Rampart One', cursive;text-transform:uppercase}
+    h2{font-family:'Permanent Marker', cursive;font-size:clamp(32px,6vw,64px);letter-spacing:1px;text-transform:uppercase;text-align:center;margin-bottom:24px;color:var(--accent)}
+    p.lead{color:#e7e7e7;opacity:.92;max-width:70ch;margin:12px auto;text-align:center;font-family:'Inter', sans-serif;font-size:1.1rem}
+    .video{position:relative;height:100svh;width:100%;overflow:hidden}
+    .video video{position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover}
+    .embed-wrap{position:relative;width:100%;max-width:900px;margin:24px auto;aspect-ratio:16/9;background:#000;border:1px solid rgba(255,255,255,.08);border-radius:12px;overflow:hidden;display:flex;align-items:center;justify-content:center}
+    .embed-wrap iframe{width:100%;height:100%;border:0}
+    .hlinks{display:flex;gap:14px;flex-wrap:wrap;justify-content:center;align-items:center;font-family:'Permanent Marker', cursive;margin-top:16px}
+    .hlinks a{color:#000;text-transform:uppercase;letter-spacing:.5px;background:#fff;padding:8px 14px;border-radius:6px;transition:.3s}
+    .hlinks a:hover{background:var(--accent);color:#000}
+    .socials{display:flex;gap:24px;flex-wrap:wrap;justify-content:center;align-items:center;margin-top:20px}
+    .socials a{font-size:2rem;color:var(--accent);transition:.3s;text-shadow:0 0 8px var(--accent),0 0 16px rgba(50,205,50,.6)}
+    .socials a:hover{color:#fff;text-shadow:0 0 10px #fff,0 0 20px rgba(255,255,255,.7)}
+    footer{padding:28px 24px;color:var(--muted);font-size:.9rem;text-align:center;font-family:'Inter', sans-serif;border-top:1px solid rgba(255,255,255,.06)}
+    @media (max-width:600px){.video{height:85svh}}
+    #merch{background:var(--accent);}
+    #merch h2, #merch p{color:#000}
+  </style>
+</head>
+<body>
+  <header>
+    <div class="nav container">
+      <nav class="nav__actions">
+        <a href="#merch">Merch</a>
+        <a href="#listen">Music</a>
+        <a href="#video">Video</a>
+        <a href="#about">About</a>
+        <a href="#newsletter">Subscribe+</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="video">
+      <div class="video">
+        <video autoplay muted loop playsinline>
+          <source src="Curt-Elbow-Green1.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <section id="single">
+      <div class="container">
+        <h2>New Single Out Now</h2>
+        <p class="lead"><em>Where Would I Be</em> - Curt Elbow's debut release.</p>
+        <div class="embed-wrap">
+          <iframe src="https://www.youtube.com/embed/-loejLqJc4M" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+      </div>
+    </section>
+
+    <section id="listen" style="background:#fff;color:#000;">
+      <div class="container">
+        <h2 style="color:#000">Music</h2>
+        <div class="hlinks">
+          <a href="https://open.spotify.com/track/7grTnPGA3LOF0acWwOvFWT" target="_blank">Spotify</a>
+          <a href="https://youtu.be/-loejLqJc4M" target="_blank">YouTube</a>
+          <a href="https://music.apple.com" target="_blank">Apple Music</a>
+          <a href="https://music.amazon.com/artists/B0FSCSJJDP/curt-elbow" target="_blank">Amazon Music</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="video-2">
+      <div class="video">
+        <video autoplay muted loop playsinline>
+          <source src="Curt-Elbow-Green2.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <section id="video-3">
+      <div class="video">
+        <video autoplay muted loop playsinline>
+          <source src="Curt-Elbow-Green3.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <section id="merch">
+      <div class="container">
+        <h2>Merch</h2>
+        <p class="lead">Our official store is coming soon. Stay tuned for exclusive Curt Elbow merchandise.</p>
+      </div>
+    </section>
+
+    <section id="video-4">
+      <div class="video">
+        <video autoplay muted loop playsinline>
+          <source src="Curt-Elbow-Green4.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>News & Updates</h2>
+        <p class="lead">Curt Elbow is an AI artist under T-Muzziic Group, created to RepChrist through trap worship. His debut single <em>“Where Would I Be”</em> blends hip-hop energy with testimony, inviting listeners into a movement built on faith over fear.</p>
+        <p class="lead" style="opacity:.75">Lyrics and samples are originally created by the producer. Visuals and sounds crafted in various industry-standard AI tools.</p>
+      </div>
+    </section>
+
+    <section id="newsletter">
+      <div class="container">
+        <h2>Stay Updated</h2>
+        <p class="lead">Sign up with your email to receive future announcements, new releases, and exclusive content.</p>
+        <form id="email-form" method="POST" style="max-width:500px;margin:0 auto;display:flex;gap:10px;flex-wrap:wrap;justify-content:center">
+          <input type="email" id="email" name="email" placeholder="Enter your email" required style="flex:1;min-width:220px;padding:14px;border-radius:999px;border:1px solid rgba(255,255,255,.2);background:var(--card);color:var(--fg);font-family:'Inter', sans-serif;">
+          <input type="text" name="website" style="display:none" tabindex="-1" autocomplete="off">
+          <input type="hidden" id="origin" name="origin" value="">
+          <button type="submit" id="subscribeBtn" style="display:none">Subscribe</button>
+        </form>
+        <p class="lead" style="max-width:700px;margin-top:10px;font-size:.95rem;opacity:.8">
+          <a href="#privacy" style="color:var(--accent);text-decoration:underline">Privacy</a>: We use your email only to send updates about new music, videos, and merch. We will never sell or share your information. You can unsubscribe anytime.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="socials">
+        <a href="https://www.youtube.com/@curtelbowmusic" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://www.tiktok.com/@curtelbowmusic" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.instagram.com/curtelbowmusic" target="_blank"><i class="fab fa-instagram"></i></a>
+      </div>
+      <div style="margin-top:20px">© 2025 Curt Elbow</div>
+    </div>
+  </footer>
+</body>
+</html>
